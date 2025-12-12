@@ -154,5 +154,5 @@ if __name__ == "__main__":
     else:
         df_cluster_stats = pd.DataFrame(cluster_stats)
 
-df_cluster_stats.to_csv(os.path.join(folder_path, "cluster_stats.csv"), index=False)
+    df_cluster_stats.to_csv(os.path.join(folder_path, "cluster_stats.csv"), index=False)
 # %%
